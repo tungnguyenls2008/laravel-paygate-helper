@@ -5,14 +5,14 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Merchant Orders</h1>
+                    <h1>Merchant Order Results</h1>
                 </div>
-                <div class="col-sm-6">
-                    <a class="btn btn-primary float-right"
-                       href="{{ route('merchantOrders.create') }}">
-                        Create Merchant Order
-                    </a>
-                </div>
+{{--                <div class="col-sm-6">--}}
+{{--                    <a class="btn btn-primary float-right"--}}
+{{--                       href="{{ route('merchantOrderResults.create') }}">--}}
+{{--                        Add New--}}
+{{--                    </a>--}}
+{{--                </div>--}}
             </div>
         </div>
     </section>
@@ -25,7 +25,7 @@
 
         <div class="card">
             <div class="card-body p-0">
-                @include('merchant_orders.table')
+                @include('merchant_order_results.table')
 
                 <div class="card-footer clearfix float-right">
                     <div class="float-right">

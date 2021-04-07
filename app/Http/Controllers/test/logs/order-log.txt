@@ -1,0 +1,198 @@
+"start sequence": 2021-04-07 02:55:08
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d1cc5ecc21&order_description=It+sounded+an+excellent+plan%2C+no+doubt%2C+and.&amount=8900000&currency=VND&language=Vietnamese&buyer_fullname=Tatum+Hill+PhD&buyer_email=orland.koch%40example.net&buyer_mobile=0987654321&buyer_address=91077+Medhurst+CrestNew+Dandrefurt%2C+TN+67088&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&option=checkout&checksum=5e4ef0ce4b7726c5b2d5bcf4db1aa91e
+"api url": api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+"start sequence": 2021-04-07 02:55:49
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d1cc5ecc21&order_description=It+sounded+an+excellent+plan%2C+no+doubt%2C+and.&amount=8900000&currency=VND&language=Vietnamese&buyer_fullname=Tatum+Hill+PhD&buyer_email=orland.koch%40example.net&buyer_mobile=0987654321&buyer_address=91077+Medhurst+CrestNew+Dandrefurt%2C+TN+67088&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&option=checkout&checksum=5e4ef0ce4b7726c5b2d5bcf4db1aa91e
+"api url": api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+"start sequence": 2021-04-07 02:57:26
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d1f4a2237e&order_description=Alice+herself%2C+and+began+whistling.+%27Oh.&amount=59400000&currency=VND&language=Vietnamese&buyer_fullname=Dr.+Delilah+Eichmann&buyer_email=chaya.veum%40example.com&buyer_mobile=0987654321&buyer_address=206+Rolfson+MallSouth+Malloryborough%2C+NH+81273&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=6d0cc2dfe7ff5499439cb10f762acdf1
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4540-CO6CB928A62C",
+        "token_code": "4540-CO6CB928A62C"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 02:58:03
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d1f4a2237e&order_description=Alice+herself%2C+and+began+whistling.+%27Oh.&amount=59400000&currency=VND&language=Vietnamese&buyer_fullname=Dr.+Delilah+Eichmann&buyer_email=chaya.veum%40example.com&buyer_mobile=0987654321&buyer_address=206+Rolfson+MallSouth+Malloryborough%2C+NH+81273&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=6d0cc2dfe7ff5499439cb10f762acdf1
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4541-COB6072796C3",
+        "token_code": "4541-COB6072796C3"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 02:58:52
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d1f4a2237e&order_description=Alice+herself%2C+and+began+whistling.+%27Oh.&amount=59400000&currency=VND&language=Vietnamese&buyer_fullname=Dr.+Delilah+Eichmann&buyer_email=chaya.veum%40example.com&buyer_mobile=0987654321&buyer_address=206+Rolfson+MallSouth+Malloryborough%2C+NH+81273&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=6d0cc2dfe7ff5499439cb10f762acdf1
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4542-CO1B8A2850DB",
+        "token_code": "4542-CO1B8A2850DB"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:03:29
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d1f4a2237e&order_description=Alice+herself%2C+and+began+whistling.+%27Oh.&amount=59400000&currency=VND&language=Vietnamese&buyer_fullname=Dr.+Delilah+Eichmann&buyer_email=chaya.veum%40example.com&buyer_mobile=0987654321&buyer_address=206+Rolfson+MallSouth+Malloryborough%2C+NH+81273&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=6d0cc2dfe7ff5499439cb10f762acdf1
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4543-CO154E12B195",
+        "token_code": "4543-CO154E12B195"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:04:40
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d1f4a2237e&order_description=Alice+herself%2C+and+began+whistling.+%27Oh.&amount=59400000&currency=VND&language=Vietnamese&buyer_fullname=Dr.+Delilah+Eichmann&buyer_email=chaya.veum%40example.com&buyer_mobile=0987654321&buyer_address=206+Rolfson+MallSouth+Malloryborough%2C+NH+81273&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=6d0cc2dfe7ff5499439cb10f762acdf1
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4544-CO0F90FB5F58",
+        "token_code": "4544-CO0F90FB5F58"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:05:27
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d1f4a2237e&order_description=Alice+herself%2C+and+began+whistling.+%27Oh.&amount=59400000&currency=VND&language=Vietnamese&buyer_fullname=Dr.+Delilah+Eichmann&buyer_email=chaya.veum%40example.com&buyer_mobile=0987654321&buyer_address=206+Rolfson+MallSouth+Malloryborough%2C+NH+81273&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=6d0cc2dfe7ff5499439cb10f762acdf1
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4545-COCA08EE9E4A",
+        "token_code": "4545-COCA08EE9E4A"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:05:47
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d1f4a2237e&order_description=Alice+herself%2C+and+began+whistling.+%27Oh.&amount=59400000&currency=VND&language=Vietnamese&buyer_fullname=Dr.+Delilah+Eichmann&buyer_email=chaya.veum%40example.com&buyer_mobile=0987654321&buyer_address=206+Rolfson+MallSouth+Malloryborough%2C+NH+81273&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=6d0cc2dfe7ff5499439cb10f762acdf1
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4546-COE951C95A9A",
+        "token_code": "4546-COE951C95A9A"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:06:31
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d1f4a2237e&order_description=Alice+herself%2C+and+began+whistling.+%27Oh.&amount=59400000&currency=VND&language=Vietnamese&buyer_fullname=Dr.+Delilah+Eichmann&buyer_email=chaya.veum%40example.com&buyer_mobile=0987654321&buyer_address=206+Rolfson+MallSouth+Malloryborough%2C+NH+81273&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=6d0cc2dfe7ff5499439cb10f762acdf1
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4547-CO0854C10715",
+        "token_code": "4547-CO0854C10715"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:07:37
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d1f4a2237e&order_description=Alice+herself%2C+and+began+whistling.+%27Oh.&amount=59400000&currency=VND&language=Vietnamese&buyer_fullname=Dr.+Delilah+Eichmann&buyer_email=chaya.veum%40example.com&buyer_mobile=0987654321&buyer_address=206+Rolfson+MallSouth+Malloryborough%2C+NH+81273&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=6d0cc2dfe7ff5499439cb10f762acdf1
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4548-COF0B43A0054",
+        "token_code": "4548-COF0B43A0054"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:10:41
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d22a4c4924&order_description=She+said+it+to+the+confused+clamour+of+the.&amount=74500000&currency=VND&language=Vietnamese&buyer_fullname=Mrs.+Felipa+Langworth&buyer_email=bartell.aidan%40example.org&buyer_mobile=0987654321&buyer_address=7573+Sydnee+Ranch+Suite+495Meganehaven%2C+NC+72341&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8080%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8080%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8080%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=9cced8f5b5e4f86e7f65d0dabe04e24c
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4549-COC983366460",
+        "token_code": "4549-COC983366460"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:20:54
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d2511efc64&order_description=Panther+were+sharing+a+pie--%27+%5Blater+editions.&amount=53400000&currency=VND&language=Vietnamese&buyer_fullname=Dr.+Tiffany+Zboncak&buyer_email=ofriesen%40example.net&buyer_mobile=0987654321&buyer_address=3182+Jazmyne+CentersSouth+Josiane%2C+IL+39617-8963&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=1f566774ca230e0ff794f69fddfd8b9d
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4550-CO44763522DD",
+        "token_code": "4550-CO44763522DD"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:23:30
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d2511efc64&order_description=Panther+were+sharing+a+pie--%27+%5Blater+editions.&amount=53400000&currency=VND&language=Vietnamese&buyer_fullname=Dr.+Tiffany+Zboncak&buyer_email=ofriesen%40example.net&buyer_mobile=0987654321&buyer_address=3182+Jazmyne+CentersSouth+Josiane%2C+IL+39617-8963&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=1f566774ca230e0ff794f69fddfd8b9d
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4551-COC2AFC1F449",
+        "token_code": "4551-COC2AFC1F449"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:26:23
+"input": _token=dFoNeZ0zcGMJY8zXlMJkN1FuIjbdn5KwAh3f1D79&merchant_site_code=26&merchant_key=123456&order_code=606d2511efc64&order_description=Panther+were+sharing+a+pie--%27+%5Blater+editions.&amount=53400000&currency=VND&language=Vietnamese&buyer_fullname=Dr.+Tiffany+Zboncak&buyer_email=ofriesen%40example.net&buyer_mobile=0987654321&buyer_address=3182+Jazmyne+CentersSouth+Josiane%2C+IL+39617-8963&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=1f566774ca230e0ff794f69fddfd8b9d
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4552-COFB8FB9361F",
+        "token_code": "4552-COFB8FB9361F"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:34:15
+"input": _token=L4ijni0aTlnKAtSQJXDbyMwqGWlzkno2rmvXlSCw&merchant_site_code=26&merchant_key=123456&order_code=606d283348b22&order_description=Caterpillar+and+Alice+was+not+a+bit+afraid+of.&amount=89200000&currency=VND&language=Vietnamese&buyer_fullname=Lamont+Smitham&buyer_email=gibson.emmanuelle%40example.com&buyer_mobile=0987654321&buyer_address=262+Reece+LoopMafaldahaven%2C+NE+03849-8883&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=b23f2c8beabf6cfaf40fc7c61f96005b
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4553-CO36A6D5828D",
+        "token_code": "4553-CO36A6D5828D"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:35:19
+"input": _token=L4ijni0aTlnKAtSQJXDbyMwqGWlzkno2rmvXlSCw&merchant_site_code=28&merchant_key=123456&order_code=606d2861287e5&order_description=I%27ll+get+into+the+jury-box%2C+or+they+would+go.&amount=64400000&currency=VND&language=Vietnamese&buyer_fullname=Jordyn+Becker+PhD&buyer_email=jweimann%40example.com&buyer_mobile=0987654321&buyer_address=8286+Lisandro+Walk+Suite+107New+Shawn%2C+VT+18717-6811&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=3d9dd81a8a100d7ec41a2325dc98e938
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0003",
+    "result_data": null,
+    "result_message": "Invalid merchant_site_code "
+}"start sequence": 2021-04-07 03:35:46
+"input": _token=L4ijni0aTlnKAtSQJXDbyMwqGWlzkno2rmvXlSCw&merchant_site_code=28&merchant_key=123456&order_code=606d2861287e5&order_description=I%27ll+get+into+the+jury-box%2C+or+they+would+go.&amount=64400000&currency=VND&language=Vietnamese&buyer_fullname=Jordyn+Becker+PhD&buyer_email=jweimann%40example.com&buyer_mobile=0987654321&buyer_address=8286+Lisandro+Walk+Suite+107New+Shawn%2C+VT+18717-6811&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=3d9dd81a8a100d7ec41a2325dc98e938
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0003",
+    "result_data": null,
+    "result_message": "Invalid merchant_site_code "
+}"start sequence": 2021-04-07 03:36:51
+"input": _token=L4ijni0aTlnKAtSQJXDbyMwqGWlzkno2rmvXlSCw&merchant_site_code=26&merchant_key=123456&order_code=606d28b05b751&order_description=Knave+of+Hearts%2C+she+made+some+tarts%2C+All+on+a.&amount=49100000&currency=VND&language=Vietnamese&buyer_fullname=Jammie+Rodriguez&buyer_email=vcole%40example.net&buyer_mobile=0987654321&buyer_address=62048+Jamarcus+BranchBobbiestad%2C+VA+79822&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2FmerchantOrders%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2FmerchantOrders%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2FmerchantOrders%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=1cf36b4c39fc643ebf6a4c2108f972dd
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4554-COD841223A0F",
+        "token_code": "4554-COD841223A0F"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:37:32
+"input": _token=L4ijni0aTlnKAtSQJXDbyMwqGWlzkno2rmvXlSCw&merchant_site_code=26&merchant_key=123456&order_code=606d28f1e4728&order_description=So+they+had+to+kneel+down+on+one+of+them+were.&amount=69300000&currency=VND&language=Vietnamese&buyer_fullname=Aaron+Rohan&buyer_email=shaina.bosco%40example.com&buyer_mobile=0987654321&buyer_address=59695+Andy+RoadMillerside%2C+VA+19292&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=318b9f21f1823444dd15fd341c8cd3d9
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4555-CO2B40B5EE2B",
+        "token_code": "4555-CO2B40B5EE2B"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 03:38:59
+"input": _token=L4ijni0aTlnKAtSQJXDbyMwqGWlzkno2rmvXlSCw&merchant_site_code=28&merchant_key=123456789&order_code=606d28f1e4728&order_description=So+they+had+to+kneel+down+on+one+of+them+were.&amount=69300000&currency=VND&language=Vietnamese&buyer_fullname=Aaron+Rohan&buyer_email=shaina.bosco%40example.com&buyer_mobile=0987654321&buyer_address=59695+Andy+RoadMillerside%2C+VA+19292&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=7e5e8ca74a608c2491896980d82a1e22
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0003",
+    "result_data": null,
+    "result_message": "Invalid merchant_site_code "
+}"start sequence": 2021-04-07 03:39:23
+"input": _token=L4ijni0aTlnKAtSQJXDbyMwqGWlzkno2rmvXlSCw&merchant_site_code=26&merchant_key=123456&order_code=606d29651f34e&order_description=She+said+it+to+be+in+before+the+end+of+his.&amount=91300000&currency=VND&language=Vietnamese&buyer_fullname=Prof.+Myron+Gutmann&buyer_email=brock52%40example.net&buyer_mobile=0987654321&buyer_address=89278+Koch+ForestPort+Fredyhaven%2C+SD+82721&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=d2b7d6a12165bc7d48563d03b736eebf
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4556-CO06AE2225AA",
+        "token_code": "4556-CO06AE2225AA"
+    },
+    "result_message": "Success"
+}

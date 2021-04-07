@@ -29,3 +29,7 @@ Route::get('/home', [
 Route::resource('tests', App\Http\Controllers\TestController::class);
 
 Route::resource('merchantOrders', App\Http\Controllers\MerchantOrderController::class);
+Route::view('merchant-order/success','merchant_orders.success')->name('merchant-order-success');
+Route::view('merchant-order/notify','merchant_orders.notify')->name('merchant-order-notify');
+Route::view('merchant-order/cancel','merchant_orders.cancel')->name('merchant-order-cancel');
+Route::resource('merchantOrderResults', App\Http\Controllers\MerchantOrderResultController::class);

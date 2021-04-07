@@ -22,3 +22,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::resource('tests', App\Http\Controllers\API\TestAPIController::class);
 
 Route::resource('merchant_orders', App\Http\Controllers\API\MerchantOrderAPIController::class);
+
+Route::resource('merchant_order_results', App\Http\Controllers\API\MerchantOrderResultAPIController::class);

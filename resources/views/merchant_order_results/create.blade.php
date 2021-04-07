@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1>Create Merchant Order</h1>
+                    <h1>Create Merchant Order Result</h1>
                 </div>
             </div>
         </div>
@@ -17,20 +17,21 @@
 
         <div class="card">
 
-            {!! Form::open(['route' => 'merchantOrders.store']) !!}
+            {!! Form::open(['route' => 'merchantOrderResults.store']) !!}
 
             <div class="card-body">
 
                 <div class="row">
-                    @include('merchant_orders.fields')
+                    @include('merchant_order_results.fields')
                 </div>
 
             </div>
 
             <div class="card-footer">
                 {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-                <a href="{{ route('merchantOrders.index') }}" class="btn btn-default">Cancel</a>
+                <a href="{{ route('merchantOrderResults.index') }}" class="btn btn-default">Cancel</a>
             </div>
+
             {!! Form::close() !!}
 
         </div>

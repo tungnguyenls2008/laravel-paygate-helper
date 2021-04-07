@@ -1,3 +1,6 @@
+<?php
+
+?>
 <div class="table-responsive">
     <table class="table" id="merchantOrders-table">
         <thead>
@@ -60,3 +63,4 @@
         </tbody>
     </table>
 </div>
+{{ $merchantOrders->links() }}

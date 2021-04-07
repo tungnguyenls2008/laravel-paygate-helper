@@ -17,7 +17,7 @@
 
         <div class="card">
 
-            {!! Form::open(['route' => 'tests.store']) !!}
+            {!! Form::open(['route' => 'tests.store','option'=>'checkout']) !!}
 
             <div class="card-body">
 

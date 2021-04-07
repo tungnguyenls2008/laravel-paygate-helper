@@ -104,3 +104,10 @@ $faker = Faker\Factory::create();
     {!! Form::label('notify_url', 'Notify Url:') !!}
     {!! Form::text('notify_url', 'http://localhost:8000/merchant-order/notify', ['class' => 'form-control','maxlength' => 512,'maxlength' => 512,'maxlength' => 512]) !!}
 </div>
+<div class="form-group col-sm-6">
+    {!! Form::label('entry_point', 'Entry Point:') !!}
+    {!! Form::text('entry_point', null, ['class' => 'form-control','maxlength' => 512,'maxlength' => 512,'maxlength' => 512]) !!}
+</div>
+<div hidden>
+    {!! Form::text('option', 'checkout') !!}
+</div>
