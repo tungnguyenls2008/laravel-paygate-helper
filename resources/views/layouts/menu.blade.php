@@ -22,3 +22,19 @@
 </li>
 
 
+<li class="nav-item">
+    <a href="{{ route('purchaseOtpNapasRequests.index') }}"
+       class="nav-link {{ Request::is('purchaseOtpNapasRequests*') ? 'active' : '' }}">
+        <p>Purchase Otp Napas Requests</p>
+    </a>
+</li>
+
+
+<li class="nav-item">
+    <a href="{{ route('purchaseOtpNapasResponses.index') }}"
+       class="nav-link {{ Request::is('purchaseOtpNapasResponses*') ? 'active' : '' }}">
+        <p>Purchase Otp Napas Responses</p>
+    </a>
+</li>
+
+

@@ -1,0 +1,326 @@
+/* ~~~~~~~~~~~~ GLOBAL SETTINGS ~~~~~~~~~~~~ */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'JetBrains Mono', monospace;
+    --def: #96B7C4;
+    --inv: #030303;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(-25deg, #ffffff 0%, #ffffff 100%);
+}
+
+html {
+    font-size: 12px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+div {margin-bottom: 3rem;}
+div:last-child {margin-bottom: 0;}
+
+
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+.toast-top-center {
+    top: 12px;
+    left:50%;
+    margin:0 0 0 -150px;
+}
+.entry-point{
+    height: 100px !important;
+
+}
+/* ~~~~~~~ INIT. BTN ~~~~~~~ */
+
+.btn {
+    position: relative;
+    padding: 0.7rem 1.5rem 0.7rem 2.1rem;
+    font-size: 1.3rem;
+    color: var(--inv);
+    letter-spacing: 0.7rem;
+    text-transform: uppercase;
+    transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:before, .btn:after {
+    content: '';
+    position: absolute;
+    transition: inherit;
+    z-index: -1;
+}
+
+.btn:hover {
+    color: var(--def);
+    transition-delay: .5s;
+}
+
+.btn:hover:before {
+    transition-delay: 0s;
+}
+
+.btn:hover:after {
+    background: var(--inv);
+    transition-delay: .35s;
+}
+
+/* From Top */
+
+.from-top:before,
+.from-top:after {
+    left: 0;
+    height: 0;
+    width: 100%;
+}
+
+.from-top:before {
+    bottom: 0;
+    border: 1px solid var(--inv);
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.from-top:after {
+    top: 0;
+    height: 0;
+}
+
+.from-top:hover:before,
+.from-top:hover:after {
+    height: 100%;
+}
+
+/* From Left */
+
+.from-left:before,
+.from-left:after {
+    top: 0;
+    width: 0;
+    height: 100%;
+}
+
+.from-left:before {
+    right: 0;
+    border: 1px solid var(--inv);
+    border-left: 0;
+    border-right: 0;
+}
+
+.from-left:after {
+    left: 0;
+}
+
+.from-left:hover:before,
+.from-left:hover:after {
+    width: 100%;
+}
+
+/* From Right */
+
+.from-right:before,
+.from-right:after {
+    top: 0;
+    width: 0;
+    height: 100%;
+}
+
+.from-right:before {
+    left: 0;
+    border: 1px solid var(--inv);
+    border-left: 0;
+    border-right: 0;
+}
+
+.from-right:after {
+    right: 0;
+}
+
+.from-right:hover:before,
+.from-right:hover:after {
+    width: 100%;
+}
+
+/* From center */
+
+.from-center:before {
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 0;
+    border: 1px solid var(--inv);
+    border-left: 0;
+    border-right: 0;
+}
+
+.from-center:after {
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background: var(--inv);
+}
+
+.from-center:hover:before {
+    left: 0;
+    width: 100%;
+}
+
+.from-center:hover:after {
+    top: 0;
+    height: 100%;
+}
+
+/* From Bottom */
+
+.from-bottom:before,
+.from-bottom:after {
+    left: 0;
+    height: 0;
+    width: 100%;
+}
+
+.from-bottom:before {
+    top: 0;
+    border: 1px solid var(--inv);
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.from-bottom:after {
+    bottom: 0;
+    height: 0;
+}
+
+.from-bottom:hover:before,
+.from-bottom:hover:after {
+    height: 100%;
+}
+
+

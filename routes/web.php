@@ -33,3 +33,11 @@ Route::view('merchant-order/success','merchant_orders.success')->name('merchant-
 Route::view('merchant-order/notify','merchant_orders.notify')->name('merchant-order-notify');
 Route::view('merchant-order/cancel','merchant_orders.cancel')->name('merchant-order-cancel');
 Route::resource('merchantOrderResults', App\Http\Controllers\MerchantOrderResultController::class);
+
+
+Route::resource('purchaseOtpNapasRequests', App\Http\Controllers\PurchaseOtpNapasRequestController::class);
+Route::view('purchase_otp_napas_requests/success','purchase_otp_napas_requests.success')->name('purchase_otp_napas_requests-success');
+Route::view('purchase_otp_napas_requests/error','purchase_otp_napas_requests.error')->name('purchase_otp_napas_requests-error');
+Route::view('purchase_otp_napas_requests/result','purchase_otp_napas_requests.result')->name('purchase_otp_napas_requests-result');
+
+Route::resource('purchaseOtpNapasResponses', App\Http\Controllers\PurchaseOtpNapasResponseController::class);

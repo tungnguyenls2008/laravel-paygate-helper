@@ -43,9 +43,9 @@
                 <td>{{ $merchantOrder->buyer_mobile }}</td>
                 <td>{{ $merchantOrder->buyer_address }}</td>
 {{--                <td>{{ $merchantOrder->time_limit }}</td>--}}
-                <td>{{ $merchantOrder->return_url }}</td>
-                <td>{{ $merchantOrder->cancel_url }}</td>
-                <td>{{ $merchantOrder->notify_url }}</td>
+                <td><a class='btn btn-sm btn-info' target='_blank' href="{{ $merchantOrder->return_url }}">Open</a></td>
+                <td><a class='btn btn-sm btn-info' target='_blank' href="{{ $merchantOrder->cancel_url }}">Open</a></td>
+                <td><a class='btn btn-sm btn-info' target='_blank' href="{{ $merchantOrder->notify_url }}">Open</a></td>
                 <td>{{ $merchantOrder->created_at }}</td>
                 <td width="120">
                     {!! Form::open(['route' => ['merchantOrders.destroy', $merchantOrder->id], 'method' => 'delete']) !!}
