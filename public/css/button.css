@@ -1,32 +1,3 @@
-/* ~~~~~~~~~~~~ GLOBAL SETTINGS ~~~~~~~~~~~~ */
-
-*, *:before, *:after {
-    box-sizing: border-box;
-}
-
-body {
-    font-size: 14px;
-    font-family: 'JetBrains Mono', monospace;
-    --def: #96B7C4;
-    --inv: #030303;
-    /*display: flex;*/
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(-25deg, #ffffff 0%, #ffffff 100%);
-}
-
-html {
-    font-size: 12px;
-    font-family: 'JetBrains Mono', monospace;
-}
-
-div {margin-bottom: 3rem;}
-div:last-child {margin-bottom: 0;}
-
-
 html,
 body {
     height: 100%;
@@ -324,3 +295,30 @@ a.desc:after {
 }
 
 
+/* ~~~~~~~~~~~~ GLOBAL SETTINGS ~~~~~~~~~~~~ */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'JetBrains Mono', monospace;
+    --def: #96B7C4;
+    --inv: #030303;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(-25deg, #ffffff 0%, #ffffff 100%);
+}
+
+html {
+    font-size: 12px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+div {margin-bottom: 3rem;}
+div:last-child {margin-bottom: 0;}

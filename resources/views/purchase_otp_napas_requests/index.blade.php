@@ -8,9 +8,9 @@
                     <h1>Purchase Otp Napas Requests</h1>
                 </div>
                 <div class="col-sm-6">
-                    <a class="btn btn-primary float-right"
+                    <a class="btn  float-right"
                        href="{{ route('purchaseOtpNapasRequests.create') }}">
-                        Add New
+                        CREATE NEW NAPAS OTP REQUEST
                     </a>
                 </div>
             </div>
@@ -29,7 +29,7 @@
 
                 <div class="card-footer clearfix float-right">
                     <div class="float-right">
-                        
+
                     </div>
                 </div>
             </div>

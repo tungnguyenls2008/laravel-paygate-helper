@@ -46,7 +46,7 @@ class PurchaseOtpNapasResponse extends Model
     use HasFactory;
 
     public $table = 'purchase_otp_napas_response';
-    
+
     const CREATED_AT = 'created_at';
     const UPDATED_AT = 'updated_at';
 
@@ -59,6 +59,7 @@ class PurchaseOtpNapasResponse extends Model
         'status',
         'error_code',
         'error_data',
+        'error_message',
         'order_amount',
         'order_currency',
         'order_trans_time',
@@ -95,6 +96,7 @@ class PurchaseOtpNapasResponse extends Model
         'status' => 'integer',
         'error_code' => 'string',
         'error_data' => 'string',
+        'error_message' => 'string',
         'order_amount' => 'integer',
         'order_currency' => 'string',
         'order_trans_time' => 'datetime',
@@ -130,6 +132,7 @@ class PurchaseOtpNapasResponse extends Model
         'status' => 'required',
         'error_code' => 'required|string|max:12',
         'error_data' => 'nullable|string|max:500',
+        'error_message' => 'nullable|string|max:200',
         'order_amount' => 'nullable|integer',
         'order_currency' => 'nullable|string|max:5',
         'order_trans_time' => 'nullable',
@@ -159,5 +162,5 @@ class PurchaseOtpNapasResponse extends Model
         'deleted_at' => 'nullable'
     ];
 
-    
+
 }

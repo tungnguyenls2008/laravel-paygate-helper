@@ -20,6 +20,7 @@ class PurchaseOtpNapasResponseRepository extends BaseRepository
         'status',
         'error_code',
         'error_data',
+        'error_message',
         'order_amount',
         'order_currency',
         'order_trans_time',

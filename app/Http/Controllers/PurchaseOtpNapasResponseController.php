@@ -29,7 +29,7 @@ class PurchaseOtpNapasResponseController extends AppBaseController
      */
     public function index(Request $request)
     {
-        $purchaseOtpNapasResponses = $this->purchaseOtpNapasResponseRepository->all();
+        $purchaseOtpNapasResponses = $this->purchaseOtpNapasResponseRepository->orderBy('created_at', 'DESC')->paginate(10);
 
         return view('purchase_otp_napas_responses.index')
             ->with('purchaseOtpNapasResponses', $purchaseOtpNapasResponses);

@@ -5,6 +5,7 @@
                 <th>Status</th>
         <th>Error Code</th>
         <th>Error Data</th>
+        <th>Error Message</th>
         <th>Order Amount</th>
         <th>Order Currency</th>
         <th>Order Trans Time</th>
@@ -38,6 +39,7 @@
                 <td>{{ $purchaseOtpNapasResponse->status }}</td>
             <td>{{ $purchaseOtpNapasResponse->error_code }}</td>
             <td>{{ $purchaseOtpNapasResponse->error_data }}</td>
+            <td>{{ $purchaseOtpNapasResponse->error_message }}</td>
             <td>{{ $purchaseOtpNapasResponse->order_amount }}</td>
             <td>{{ $purchaseOtpNapasResponse->order_currency }}</td>
             <td>{{ $purchaseOtpNapasResponse->order_trans_time }}</td>
@@ -59,8 +61,43 @@
             <td>{{ $purchaseOtpNapasResponse->transaction_id }}</td>
             <td>{{ $purchaseOtpNapasResponse->channel }}</td>
             <td>{{ $purchaseOtpNapasResponse->version }}</td>
-            <td>{{ $purchaseOtpNapasResponse->data_key }}</td>
-            <td>{{ $purchaseOtpNapasResponse->napas_key }}</td>
+            <td><!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#dataKey_{{$purchaseOtpNapasResponse->id}}">DISPLAY</button>
+
+                <!-- Modal -->
+                <div id="dataKey_{{$purchaseOtpNapasResponse->id}}" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <p>{{ $purchaseOtpNapasResponse->data_key }}</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                </td>
+            <td><!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#napasKey_{{$purchaseOtpNapasResponse->id}}">DISPLAY</button>
+
+                <!-- Modal -->
+                <div id="napasKey_{{$purchaseOtpNapasResponse->id}}" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <p>{{ $purchaseOtpNapasResponse->napas_key }}</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                </td>
             <td>{{ $purchaseOtpNapasResponse->api_operation }}</td>
                 <td width="120">
                     {!! Form::open(['route' => ['purchaseOtpNapasResponses.destroy', $purchaseOtpNapasResponse->id], 'method' => 'delete']) !!}

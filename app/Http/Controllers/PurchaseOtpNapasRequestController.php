@@ -32,7 +32,7 @@ class PurchaseOtpNapasRequestController extends AppBaseController
      */
     public function index(Request $request)
     {
-        $purchaseOtpNapasRequests = $this->purchaseOtpNapasRequestRepository->all();
+        $purchaseOtpNapasRequests = $this->purchaseOtpNapasRequestRepository->orderBy('created_at', 'DESC')->paginate(10);
 
         return view('purchase_otp_napas_requests.index')
             ->with('purchaseOtpNapasRequests', $purchaseOtpNapasRequests);
@@ -99,7 +99,12 @@ class PurchaseOtpNapasRequestController extends AppBaseController
            } else {
                $response_data['status'] = $response['status'];
                $response_data['error_code'] = $response['error_code'];
-               $response_data['error_data']=json_encode($response['data']);
+               if (isset($response['data'])&& $response['data']!=[]){
+                   $response_data['error_data']=json_encode($response['data']);
+               }
+               if (isset($response['message'])&& $response['message']!=''){
+                   $response_data['error_message']=$response['message'];
+               }
                $this->purchaseOtpNapasResponseRepository->create($response_data);
                return $this->actionError('<strong>Has errors!</strong> Check Response Index for more detail.');
            }
