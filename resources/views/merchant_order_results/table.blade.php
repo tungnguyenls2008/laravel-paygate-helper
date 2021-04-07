@@ -7,6 +7,7 @@
             <th>Checkout Url</th>
             <th>Token Code</th>
             <th>Result Message</th>
+            <th>Created At</th>
             <th colspan="3">Action</th>
         </tr>
         </thead>
@@ -18,6 +19,7 @@
                 <td><a class='btn btn-sm btn-info' target='_blank' href="{{ $merchantOrderResult->checkout_url }}">Open</a></td>
                 <td>{{ $merchantOrderResult->token_code }}</td>
                 <td>{{ $merchantOrderResult->result_message }}</td>
+                <td>{{ $merchantOrderResult->created_at }}</td>
                 <td width="120">
                     {!! Form::open(['route' => ['merchantOrderResults.destroy', $merchantOrderResult->id], 'method' => 'delete']) !!}
                     <div class='btn-group'>
@@ -38,3 +40,4 @@
         </tbody>
     </table>
 </div>
+{{$merchantOrderResults->links()}}

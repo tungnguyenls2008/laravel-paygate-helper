@@ -8,6 +8,7 @@ use App\Models\MerchantOrderResult;
 use App\Repositories\MerchantOrderRepository;
 use App\Http\Controllers\AppBaseController;
 use App\Repositories\MerchantOrderResultRepository;
+use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Http\Request;
 use Flash;
 use Response;
@@ -46,11 +47,11 @@ class MerchantOrderController extends AppBaseController
      *
      * @param Request $request
      *
-     * @return Response
+     * @return Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|Response
      */
     public function index(Request $request)
     {
-        $merchantOrders = $this->merchantOrderRepository->paginate(10);
+        $merchantOrders = $this->merchantOrderRepository->orderBy('created_at', 'DESC')->paginate(10);
         return view('merchant_orders.index')
             ->with('merchantOrders', $merchantOrders);
     }
@@ -70,7 +71,7 @@ class MerchantOrderController extends AppBaseController
      *
      * @param CreateMerchantOrderRequest $request
      *
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector|Response
+     * @return Application|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector|Response
      */
     public function store(CreateMerchantOrderRequest $request)
     {
@@ -85,7 +86,7 @@ class MerchantOrderController extends AppBaseController
             $merchantOrder = $this->merchantOrderRepository->create($input);
             $order_result= $this->merchantOrderResultRepository;
 
-            if ($result['result_code'] === '0000') {
+            if (isset($result['result_code']) && $result['result_code'] === '0000') {
                 $data['result_code']=$result['result_code'];
                 $data['checkout_url']=$result['result_data']['checkout_url'];
                 $data['token_code']=$result['result_data']['token_code'];

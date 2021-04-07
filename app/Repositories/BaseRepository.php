@@ -190,4 +190,8 @@ abstract class BaseRepository
 
         return $model->delete();
     }
+    public function orderBy(string $column, string $order)
+    {
+        return $this->model()::orderBy($column,$order);
+    }
 }

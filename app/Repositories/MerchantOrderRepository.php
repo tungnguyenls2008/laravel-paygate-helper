@@ -13,6 +13,9 @@ use App\Repositories\BaseRepository;
 
 class MerchantOrderRepository extends BaseRepository
 {
+    protected $orderable = [
+        'created_at',
+    ];
     /**
      * @var array
      */
@@ -53,4 +56,6 @@ class MerchantOrderRepository extends BaseRepository
     {
         return MerchantOrder::class;
     }
+    
+
 }

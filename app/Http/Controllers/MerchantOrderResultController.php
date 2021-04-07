@@ -29,7 +29,7 @@ class MerchantOrderResultController extends AppBaseController
      */
     public function index(Request $request)
     {
-        $merchantOrderResults = $this->merchantOrderResultRepository->all();
+        $merchantOrderResults = $this->merchantOrderResultRepository->orderBy('created_at', 'DESC')->paginate(10);
 
         return view('merchant_order_results.index')
             ->with('merchantOrderResults', $merchantOrderResults);

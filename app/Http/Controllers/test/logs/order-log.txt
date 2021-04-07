@@ -195,4 +195,37 @@
         "token_code": "4556-CO06AE2225AA"
     },
     "result_message": "Success"
+}"start sequence": 2021-04-07 04:08:39
+"input": _token=nZQS06Oad7iL6lnrmgzMh2hBvZN3wfcmZDpmc7wI&merchant_site_code=26&merchant_key=123456&order_code=606d3043d72f4&order_description=The+Caterpillar+was+the+only+one+who+had+been.&amount=90400000&currency=VND&language=Vietnamese&buyer_fullname=Zachery+Ryan&buyer_email=labadie.lukas%40example.net&buyer_mobile=0987654321&buyer_address=837+Rodriguez+OverpassNew+Wyatt%2C+CA+33154&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=11017fe0536649012dcde90e0f265998
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4557-COAC21EF1078",
+        "token_code": "4557-COAC21EF1078"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 04:10:04
+"input": _token=nZQS06Oad7iL6lnrmgzMh2hBvZN3wfcmZDpmc7wI&merchant_site_code=26&merchant_key=123456&order_code=606d3067597ee&order_description=Hatter.+Alice+felt+a+violent+blow+underneath.&amount=2200000&currency=VND&language=Vietnamese&buyer_fullname=Schuyler+Will&buyer_email=marion16%40example.com&buyer_mobile=0987654321&buyer_address=57899+Ritchie+PathLake+Keon%2C+HI+73720-1435&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=07bc5ca066dad8da4c6493a58cb08a6a
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4558-CO77B22AB0D3",
+        "token_code": "4558-CO77B22AB0D3"
+    },
+    "result_message": "Success"
+}"start sequence": 2021-04-07 04:10:57
+"input": _token=nZQS06Oad7iL6lnrmgzMh2hBvZN3wfcmZDpmc7wI&merchant_site_code=26&merchant_key=123456&order_code=606d30a3261a8&order_description=Alice+again%2C+for+this+curious+child+was+very.&amount=14400000&currency=VND&language=Vietnamese&buyer_fullname=Georgianna+Corkery&buyer_email=fritsch.gideon%40example.org&buyer_mobile=0987654321&buyer_address=578+Greyson+Passage+Apt.+113Fayland%2C+WI+09141&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&option=checkout&checksum=61fc3af9787230be07322d9d34606b75
+"api url": api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+"start sequence": 2021-04-07 04:11:02
+"input": _token=nZQS06Oad7iL6lnrmgzMh2hBvZN3wfcmZDpmc7wI&merchant_site_code=26&merchant_key=123456&order_code=606d30a3261a8&order_description=Alice+again%2C+for+this+curious+child+was+very.&amount=14400000&currency=VND&language=Vietnamese&buyer_fullname=Georgianna+Corkery&buyer_email=fritsch.gideon%40example.org&buyer_mobile=0987654321&buyer_address=578+Greyson+Passage+Apt.+113Fayland%2C+WI+09141&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=61fc3af9787230be07322d9d34606b75
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0000",
+    "result_data": {
+        "checkout_url": "https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/Vietnamese\/checkout\/version_1_0\/index\/4559-CO9F8E9C317F",
+        "token_code": "4559-CO9F8E9C317F"
+    },
+    "result_message": "Success"
 }
