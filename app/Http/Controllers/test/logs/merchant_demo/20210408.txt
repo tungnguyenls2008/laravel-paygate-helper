@@ -1,0 +1,18 @@
+[17:15:10, 08/04/2021][CreateOrder][input]{"_token":"3J1qBm0wy7HECwsjM5QinucDg4OtUtsqfh0OCfiQ","merchant_site_code":"28","merchant_key":"123456789","order_code":"606ed43a7ea9e","method_code":null,"bank_code":null,"order_description":"I'd only been the right words,' said poor.","amount":"85900000","currency":"VND","language":"Vietnamese","buyer_fullname":"Caterina Feeney","buyer_email":"estrella78@example.org","buyer_mobile":"0987654321","buyer_address":"135 Mia VillageNicolasport, TN 64277","time_limit":"0","return_url":"http:\/\/localhost:8000\/merchant-order\/success","cancel_url":"http:\/\/localhost:8000\/merchant-order\/cancel","notify_url":"http:\/\/localhost:8000\/merchant-order\/notify","entry_point":"https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/","option":"checkout","checksum":"0874b702f2baf037b828dd4ce4c79e6f"}
+[17:15:10, 08/04/2021][CreateOrder][output]{
+    "result_code": "0003",
+    "result_data": null,
+    "result_message": "Invalid merchant_site_code "
+}
+[17:16:05, 08/04/2021][CreateOrder][input]{"_token":"3J1qBm0wy7HECwsjM5QinucDg4OtUtsqfh0OCfiQ","merchant_site_code":"18","merchant_key":"123456789","order_code":"606ed7dcc0867","method_code":null,"bank_code":null,"order_description":"March Hare meekly replied. 'Yes, but I don't.","amount":"22600000","currency":"VND","language":"Vietnamese","buyer_fullname":"Gerda Zemlak","buyer_email":"efrain.turcotte@example.org","buyer_mobile":"0987654321","buyer_address":"1968 Lorna SpurSouth Kurt, WV 44253-6649","time_limit":"0","return_url":"http:\/\/localhost:8000\/merchant-order\/success","cancel_url":"http:\/\/localhost:8000\/merchant-order\/cancel","notify_url":"http:\/\/localhost:8000\/merchant-order\/notify","entry_point":"https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/","option":"checkout","checksum":"967675e6cb6c19ea30c5e81678175a47"}
+[17:16:05, 08/04/2021][CreateOrder][output]{
+    "result_code": "0017",
+    "result_data": null,
+    "result_message": "Invalid checksum"
+}
+[17:16:32, 08/04/2021][CreateOrder][input]{"_token":"3J1qBm0wy7HECwsjM5QinucDg4OtUtsqfh0OCfiQ","merchant_site_code":"18","merchant_key":"123456789","order_code":"606ed7efbc7d9","method_code":"4","bank_code":"3456","order_description":"Mouse had changed his mind, and was gone.","amount":"84200000","currency":"VND","language":"Vietnamese","buyer_fullname":"Lysanne Dibbert","buyer_email":"jcronin@example.org","buyer_mobile":"0987654321","buyer_address":"8517 Dylan SummitObiehaven, TN 90865","time_limit":"0","return_url":"http:\/\/localhost:8000\/merchant-order\/success","cancel_url":"http:\/\/localhost:8000\/merchant-order\/cancel","notify_url":"http:\/\/localhost:8000\/merchant-order\/notify","entry_point":"https:\/\/sandbox2.nganluong.vn\/paygate_for_bank\/vcb\/","option":"checkout","checksum":"9fb99b58321925f8e43389522e0681c3"}
+[17:16:32, 08/04/2021][CreateOrder][output]{
+    "result_code": "0017",
+    "result_data": null,
+    "result_message": "Invalid checksum"
+}

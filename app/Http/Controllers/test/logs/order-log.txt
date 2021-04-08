@@ -228,4 +228,25 @@
         "token_code": "4559-CO9F8E9C317F"
     },
     "result_message": "Success"
+}"start sequence": 2021-04-08 17:15:10
+"input": _token=3J1qBm0wy7HECwsjM5QinucDg4OtUtsqfh0OCfiQ&merchant_site_code=28&merchant_key=123456789&order_code=606ed43a7ea9e&order_description=I%27d+only+been+the+right+words%2C%27+said+poor.&amount=85900000&currency=VND&language=Vietnamese&buyer_fullname=Caterina+Feeney&buyer_email=estrella78%40example.org&buyer_mobile=0987654321&buyer_address=135+Mia+VillageNicolasport%2C+TN+64277&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=0874b702f2baf037b828dd4ce4c79e6f
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0003",
+    "result_data": null,
+    "result_message": "Invalid merchant_site_code "
+}"start sequence": 2021-04-08 17:16:05
+"input": _token=3J1qBm0wy7HECwsjM5QinucDg4OtUtsqfh0OCfiQ&merchant_site_code=18&merchant_key=123456789&order_code=606ed7dcc0867&order_description=March+Hare+meekly+replied.+%27Yes%2C+but+I+don%27t.&amount=22600000&currency=VND&language=Vietnamese&buyer_fullname=Gerda+Zemlak&buyer_email=efrain.turcotte%40example.org&buyer_mobile=0987654321&buyer_address=1968+Lorna+SpurSouth+Kurt%2C+WV+44253-6649&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=967675e6cb6c19ea30c5e81678175a47
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0017",
+    "result_data": null,
+    "result_message": "Invalid checksum"
+}"start sequence": 2021-04-08 17:16:32
+"input": _token=3J1qBm0wy7HECwsjM5QinucDg4OtUtsqfh0OCfiQ&merchant_site_code=18&merchant_key=123456789&order_code=606ed7efbc7d9&method_code=4&bank_code=3456&order_description=Mouse+had+changed+his+mind%2C+and+was+gone.&amount=84200000&currency=VND&language=Vietnamese&buyer_fullname=Lysanne+Dibbert&buyer_email=jcronin%40example.org&buyer_mobile=0987654321&buyer_address=8517+Dylan+SummitObiehaven%2C+TN+90865&time_limit=0&return_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fsuccess&cancel_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fcancel&notify_url=http%3A%2F%2Flocalhost%3A8000%2Fmerchant-order%2Fnotify&entry_point=https%3A%2F%2Fsandbox2.nganluong.vn%2Fpaygate_for_bank%2Fvcb%2F&option=checkout&checksum=9fb99b58321925f8e43389522e0681c3
+"api url": https://sandbox2.nganluong.vn/paygate_for_bank/vcb/api/web/checkout/version_1_0/?encrypt=0&function=CreateOrder
+{
+    "result_code": "0017",
+    "result_data": null,
+    "result_message": "Invalid checksum"
 }

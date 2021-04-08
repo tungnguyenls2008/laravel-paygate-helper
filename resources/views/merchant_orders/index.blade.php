@@ -8,7 +8,7 @@
                     <h1>Merchant Orders</h1>
                 </div>
                 <div class="col-sm-6">
-                    <a class="btn btn-primary"
+                    <a class="btn "
                        href="{{ route('merchantOrders.create') }}">
                         Create Merchant Order
                     </a>
