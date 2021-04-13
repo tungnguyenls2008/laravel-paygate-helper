@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CryptController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
@@ -41,3 +42,6 @@ Route::view('purchase_otp_napas_requests/error','purchase_otp_napas_requests.err
 Route::view('purchase_otp_napas_requests/result','purchase_otp_napas_requests.result')->name('purchase_otp_napas_requests-result');
 
 Route::resource('purchaseOtpNapasResponses', App\Http\Controllers\PurchaseOtpNapasResponseController::class);
+Route::resource('crypt', App\Http\Controllers\CryptController::class);
+Route::view('crypt/decrypt','crypt.decrypt')->name('crypt-decrypt-view');
+Route::post('crypt/decrypt',[CryptController::class,'decrypt'])->name('crypt-decrypt');

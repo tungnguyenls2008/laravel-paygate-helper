@@ -37,4 +37,9 @@
     </a>
 </li>
 
-
+<li class="nav-item">
+    <a href="{{ route('crypt.index') }}"
+       class="nav-link {{ Request::is('crypts*') ? 'active' : '' }}">
+        <p>Crypt tool</p>
+    </a>
+</li>
