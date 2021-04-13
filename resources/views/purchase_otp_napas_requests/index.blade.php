@@ -8,7 +8,7 @@
                     <h1>Purchase Otp Napas Requests</h1>
                 </div>
                 <div class="col-sm-6">
-                    <a class="btn  float-right"
+                    <a class="btn from-center float-right"
                        href="{{ route('purchaseOtpNapasRequests.create') }}">
                         CREATE NEW NAPAS OTP REQUEST
                     </a>

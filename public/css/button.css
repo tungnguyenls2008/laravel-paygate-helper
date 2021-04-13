@@ -151,6 +151,8 @@ a.desc:after {
 .btn:hover {
     color: var(--def);
     transition-delay: .5s;
+    z-index: 0;
+
 }
 
 .btn:hover:before {
