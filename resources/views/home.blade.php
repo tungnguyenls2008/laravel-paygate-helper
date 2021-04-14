@@ -11,7 +11,8 @@
             <a href="{{route('merchantOrders.index')}}" class="btn btn-lg from-left"><div><i class="fas fa-bomb"></i></div>Merchant Order Index</a>
             <a href="{{route('merchantOrderResults.index')}}" class="btn btn-lg from-right"><div><i class="fas fa-smog"></i></div>Merchant Order Result</a>
             <a href="{{route('purchaseOtpNapasRequests.index')}}" class="btn btn-lg from-left"><div><i class="fas fa-smog"></i></div>Napas test site</a>
-            <a href="{{route('purchaseOtpNapasResponses.index')}}" class="btn btn-lg from-right"><div><i class="fas fa-smog"></i></div>Napas Responses</a>
+            <a href="{{route('purchaseOtpNapasResponses.index')}}" class="btn btn-lg from-center"><div><i class="fas fa-smog"></i></div>Napas Responses</a>
+            <a href="{{route('crypt.index')}}" class="btn btn-lg from-right"><div><i class="fas fa-smog"></i></div>Cryptography</a>
          </div>
 
     </div>
