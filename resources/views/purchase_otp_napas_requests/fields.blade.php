@@ -101,5 +101,5 @@ $faker = Faker\Factory::create();
 
 <div class="form-group col-sm-6">
     {!! Form::label('api_entry', 'API ENTRY:') !!}
-    {!! Form::text('api_entry', 'https://gateway02-sandbox.nganluong.vn/naba/restful/api/request', ['class' => 'form-control','maxlength' => 5,'maxlength' => 5]) !!}
+    {!! Form::text('api_entry', 'https://gateway02-sandbox.nganluong.vn/naba/restful/api/request', ['class' => 'form-control']) !!}
 </div>
